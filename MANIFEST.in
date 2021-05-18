@@ -1,0 +1,4 @@
+include README
+include LICENSE
+include requirements.txt
+include librtf/rapidnj_x64.exe
