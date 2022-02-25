@@ -56,6 +56,9 @@ class Distance:
 
         return pairwise_distances(self.a,  metric='l2', n_jobs=1)
     
-    def manhattan_distances(self):
+    def manhattan_distance(self):
 
         return pairwise_distances(self.a,  metric='manhattan', n_jobs=1)
+    
+    def aitchison_distance(self):
+        pass
